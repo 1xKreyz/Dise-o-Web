@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="ST.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Yosvanny</title>
+</head>
+<body>
+    <div class="head">
+  <div class="container-fluid">
+<header class="row bg-danger text-white p-3">
+    <nav class="col">
+    <a href="F1 Yosvanny.html" class="btn btn-light me-2">Inicio</a>
+    <a href="Detalles.html" class="btn btn-light me-2">Detalles</a>
+    <a href="Pistas.html" class="btn btn-light">Pistas</a>
+  </nav>
+</header>
+    </div>
+    </div>
+    <div class="row" style="min-height: 400px;">
+      <aside class="col-md-2 bg-light p-3">
+        <h2>Escuderias</h2>
+        <div class="list-group">
+          <a href="#F1" class="list-group-item list-group-item-action list-group-item-danger active"><img class="img-fluid" src="img/F1.webp" alt="F1">F1</a>
+          <a href="#AstonMartin" class="list-group-item list-group-item-action"><img class="img-fluid" src="img/Aston Martin.webp" alt="Aston Martin">Aston Martin F1 Team</a>
+          <a href="#Williams" class="list-group-item list-group-item-action"><img class="img-fluid" src="img/Williams.webp" alt="Williams F1 Team">Williams F1 Team</a>
+        </div>
+      </aside>
+      <main class="col-md-8 p-3">
+  <section id="F1">
+    <h1>Pistas Famosas de la Fórmula 1</h1>
+    <div class="accordion" id="accordionPistas">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingUno">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#pistaUno" aria-expanded="true" aria-controls="pistaUno">
+            Circuito de Mónaco
+          </button>
+        </h2>
+        <div id="pistaUno" class="accordion-collapse collapse show" aria-labelledby="headingUno" data-bs-parent="#accordionPistas">
+          <div class="accordion-body">
+            El circuito urbano de Montecarlo es uno de los más emblemáticos y desafiantes del calendario de la F1, famoso por sus curvas cerradas y glamour.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDos">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pistaDos" aria-expanded="false" aria-controls="pistaDos">
+            Silverstone
+          </button>
+        </h2>
+        <div id="pistaDos" class="accordion-collapse collapse" aria-labelledby="headingDos" data-bs-parent="#accordionPistas">
+          <div class="accordion-body">
+            Ubicado en Reino Unido, Silverstone es considerado la cuna de la Fórmula 1 y es conocido por sus rápidas curvas y rica historia.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTres">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pistaTres" aria-expanded="false" aria-controls="pistaTres">
+            Monza
+          </button>
+        </h2>
+        <div id="pistaTres" class="accordion-collapse collapse" aria-labelledby="headingTres" data-bs-parent="#accordionPistas">
+          <div class="accordion-body">
+            El Autódromo Nacional de Monza, en Italia, es famoso por sus largas rectas y altas velocidades, siendo uno de los circuitos más antiguos.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="AstonMartin">
+    <h2>Aston Martin F1 Team</h2>
+    <p>Aston Martin F1 Team es una escudería británica que ha regresado recientemente a la Fórmula 1. Destaca por su elegancia, innovación y el respaldo de una marca histórica en el mundo del automóvil.</p>
+  </section>
+  <section id="Williams">
+    <h2>Williams F1 Team</h2>
+    <p>Williams F1 Team es uno de los equipos más exitosos y tradicionales de la Fórmula 1. Fundado en 1977, ha ganado múltiples campeonatos y es conocido por su espíritu competitivo y su legado en el deporte.</p>
+  </section>
+</main>
+      <aside class="col-md-2 bg-light p-3">
+        <h2>Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="email" placeholder="tu@email.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Enviar</button>
+        </form>
+      </aside>
+    </div>
+    <footer class="row bg-dark text-white p-3">
+      <div class="col text-center">
+        &copy; 2025 x1 Kreyz XV
+      </div>
+    </footer>
+  </div>
+   <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
